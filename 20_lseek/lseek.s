@@ -1,5 +1,5 @@
 section .data
-    pathname DD "/home/daniel/Documents/repos/olivestem_asm_yt_playlist/20_lseek/test.txt"
+    pathname DD "./test.txt"
 
 section .bss
     buffer resb 10

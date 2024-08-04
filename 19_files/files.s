@@ -2,7 +2,7 @@ section .bss
     buffer resb 10
 
 section .data
-    pathname DD "/home/daniel/Documents/repos/olivestem_asm_yt_playlist/19_files/test.txt"
+    pathname DD "./test.txt"
 
 section .text
 global _start

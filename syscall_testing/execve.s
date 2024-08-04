@@ -3,7 +3,7 @@ section .bss
     envpBuffer resd 2
 
 section .data
-    path DD "/home/daniel/Documents/repos/olivestem_asm_yt_playlist/syscall_testing/test.sh"
+    path DD "./test.sh"
     program DB "test.sh",0
     arg DB "argOne",0
     argNull DB 0

@@ -1,5 +1,5 @@
 section .data
-    pathname DD "/home/daniel/Documents/repos/olivestem_asm_yt_playlist/21_create_files/test.txt"
+    pathname DD "./test.txt"
     toWrite DD "0123456",0AH,0DH,"$"
 
 section .text
