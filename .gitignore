@@ -1,0 +1,63 @@
+# Ignore object files
+*.o
+*.obj
+
+# Ignore executable files
+*.exe
+*.out
+*.elf
+
+# Ignore dependency files
+*.d
+*.dep
+
+# Ignore compiled dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Ignore compiled static libraries
+*.lib
+*.a
+
+# Ignore NASM listing files
+*.lst
+
+# Ignore NASM preprocessor output
+*.i
+
+# Ignore NASM debug files
+*.dbg
+
+# Ignore core dumps
+core
+*.core
+
+# Ignore temporary files created by editors or operating systems
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/lib/
+
+# Ignore logs and debugging output
+*.log
+
+# Ignore IDE specific files and directories
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignore ctags and cscope files
+tags
+TAGS
+cscope.out
+
+# Ignore compiler warnings/error output
+*.err
